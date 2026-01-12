@@ -1,0 +1,9 @@
+This project presents an end-to-end machine learning solution for predicting the popularity level of music artists using follower count and genre-based features. The objective of the project is to analyze artist-related data and classify artists into three popularity categories: Low, Medium, and High.The dataset used in this project contains detailed information about artists, including the number of followers, popularity score, and associated music genres. During preprocessing, missing values were handled, categorical genre information was encoded, and new features such as genre count were engineered to improve model performance.
+Exploratory Data Analysis (EDA) was performed to understand the relationship between followers, genres, and popularity. Visualizations such as popularity distribution and followers versus popularity plots provided insights into how artist reach influences popularity.A Random Forest Classifier was trained on the processed dataset using an 80:20 train-test split. Feature scaling was applied to ensure consistent model behavior. The model demonstrated strong performance in multi-class classification, achieving an overall accuracy of approximately **88%**. Evaluation metrics such as precision, recall, F1-score, and confusion matrix were used to assess model effectiveness.
+The results indicate that follower count is the most influential feature in predicting popularity, followed by genre-related features. This project highlights how machine learning techniques can be effectively applied to real-world music industry data for popularity analysis, recommendation systems, and artist growth prediction.
+ Model Performance
+
+- Algorithm: Random Forest Classifier
+- Train-Test Split: 80:20
+- Accuracy Achieved: ~88%
+- Key Evaluation Metrics: Precision, Recall, F1-score, Confusion Matrix
